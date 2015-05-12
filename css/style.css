@@ -1,0 +1,66 @@
+h1 {
+	font-family: futura lt, helvetica, sans-serif;
+	font-weight: bolder;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	text-align: center; 
+	letter-spacing: .1em;
+	color: #000; 
+}
+
+h2 {
+	font-family: georgia, helvetica, sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 1;
+	text-transform: uppercase;
+	text-align: center;  
+	letter-spacing: .2em;
+	color: #199ed8; 
+	padding: 40px;
+
+
+	
+}
+
+h3 {
+	font-family: futura lt, helvetica, georgia, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: center;  
+	letter-spacing: .1em;
+	color: #000;
+}
+
+a {
+	padding: 10px;
+	background-color: #edf2f2;
+
+}
+
+img {
+   position: fixed;
+   top: 10%;
+   left: 50%;
+   width:300px;
+   height: 300px;
+   margin-top: -150px;
+   margin-left: -150px; 
+
+}
+
+html {
+   position: absolute;
+   top: 20%;
+  
+}	 
+
+body {
+    
+
+ {

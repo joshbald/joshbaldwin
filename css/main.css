@@ -1,0 +1,317 @@
+body {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    background-position: top right;
+    height: 200px;       
+}
+
+.content {
+    width: 960px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    position: relative;
+    float: left;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;  
+    flex: 1;
+}
+
+.content h2 {
+    margin-top: 50px;
+}
+
+.banner-footer {
+    background-position: bottom right;
+    width: 100%;
+}
+
+.banner-footer a {
+    font-family: 'Montserrat';
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 12pt;
+    display: inline-block;
+}
+
+.banner-footer a:hover {
+    color: white;
+}
+
+.banner-footer h2 {
+    text-align: center;
+    color: #000;
+    font-size: 12pt;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.banner, .banner-footer {
+    background-image: url(../images/background-image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-color: #595959
+}
+
+.nav {
+    margin: 0 auto;
+    text-align: center;
+    word-spacing: 20px;
+    padding: 12pt 0;
+}
+
+.logo {
+    margin: 75px auto;
+    display: block;
+}
+
+.slider {
+    width: 100%
+}
+
+h2 {
+    color: #4bacdc;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    font-size: 20pt;
+}
+
+h3 { 
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #4bacdc;
+
+}
+
+p {
+  font-family: 'droid serif';
+  line-height: 1.4;
+  font-size: 12pt;
+}
+
+a {
+    margin: 0 auto;
+}
+
+.centerText {
+    text-align: center;
+    width: 54%;
+    margin: 0 auto;
+}
+
+.row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.artwork {
+    background: #eff0f0;
+    width: 960px;
+    height: 230px;
+    margin: 10px 10px;
+}
+
+.artwork a { 
+    height: 100%;
+
+}
+
+.artworkWrapper { 
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.artworkWrapper + .artworkWrapper {
+    margin-top: 0px
+}
+
+.artwork.red a {
+    background-image: url(../images/artwork-red.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.artwork.blue a {
+    background-image: url(../images/artwork-blue.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ .artwork.white a {
+    background-image: url(../images/artwork-white.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ .artwork.heart a {
+    background-image: url(../images/artwork-heart.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ .artwork.button a {
+    background-image: url(../images/artwork-button.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ .artwork.yellow a {
+    background-image: url(../images/artwork-yellow.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.websiteWrapper{
+    display: flex;
+    flex-direction: column;         
+}
+
+.websites {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.websites h2 {
+    margin-bottom: 0;
+}
+
+.websites.first .textblock {
+    justify-content: flex-start;
+}
+
+.textblock {
+    flex: 1;
+    margin: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eff0f0;
+}
+
+.textblock h2,
+.textblock h3,
+.textblock p,
+.textblock a { 
+    text-align: center;
+}
+
+
+.textblock h2 {
+    margin-bottom: 25px;
+    margin-top: -17px
+    
+}
+
+.textblock h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.textblock p{
+    margin-top: 0;
+    width: 100%;
+
+}
+
+.websites:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d1d1d1;
+    width: 54%;
+    margin: 45px auto;
+}
+
+.work p {
+    font-family: 'droid serif';
+    font-size: 12pt;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.work img {
+    display: block;
+    margin: 0 auto;
+    height: 25%;
+    padding-bottom: 15px;
+}
+.artwork a {
+    position: relative;
+    display: block; 
+}
+
+.artwork img {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+
+.artwork-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: rgba(75, 172, 220, 0.75);
+}
+
+.artwork-content p {
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.artwork a:hover .artwork-content {
+    display: block;
+}
+
+#cboxWrapper {
+    background: white;
+}
+
+#cboxCurrent {
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+#cboxBottomLeft,
+#cboxBottomCenter,
+#cboxBottomRight,
+#cboxTopLeft,
+#cboxTopCenter,
+#cboxTopRight, {
+    background: none !important;         
+}
